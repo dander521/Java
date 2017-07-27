@@ -56,14 +56,14 @@ public class BasicDataType {
         final double PI = 3.1415927;
 
         byte a = 68;
-        char a = 'A';
+//        char a = 'A';
 
         int decimal = 100;
         int octal = 0144;
         int hexa = 0x64;
 
-        char a = '\u0001';
-        String a = "\u0001";
+//        char a = '\u0001';
+//        String a = "\u0001";
 
 
     }
