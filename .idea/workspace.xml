@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f82484-f273-4f6c-8ded-8dbefd7a972b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/JavaObject/CustomObject.java" afterPath="$PROJECT_DIR$/src/main/Object/JavaObject/CustomObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chen.iml" afterPath="$PROJECT_DIR$/Chen.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,28 +28,6 @@
             <state relative-caret-position="75">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1501206127000" expanded="true" signature="41632:41674" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41632:41692" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41632:41705" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41632:41720" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41755:42097" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41768:42082" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41803:42068" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41822:42053" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41855:42033" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41895:41999" ph="..." />
-                <marker date="1501206127000" expanded="true" signature="41916:41977" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -458,6 +434,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1160" height="736" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016489988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -467,9 +444,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.50410676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2665474" sideWeight="0.7795824" order="0" side_tool="false" content_ui="combo" />
@@ -701,19 +678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501206127000" expanded="true" signature="41632:41674" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41632:41692" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41632:41705" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41632:41720" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41755:42097" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41768:42082" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41803:42068" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41822:42053" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41855:42033" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41895:41999" ph="..." />
-            <marker date="1501206127000" expanded="true" signature="41916:41977" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
