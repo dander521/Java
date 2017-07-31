@@ -1,8 +1,14 @@
 package Applet;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.net.InetAddress;
 import java.sql.*;
+import java.util.concurrent.atomic.AtomicLong;
 
+@RestController
 public class CustomApplet {
     /*
     Applet 类中的四个方法给你提供了一个框架，你可以再该框架上开发小程序：
@@ -16,6 +22,14 @@ public class CustomApplet {
     destroy: 此方法仅当浏览器正常关闭时调用。因为 Applet 只有在 HTML 网页上有效，所以你不应该在用户离开包含 Applet 的页面后遗漏任何资源。
 
     paint: 该方法在 start() 方法之后立即被调用，或者在 Applet 需要重绘在浏览器的时候调用。paint() 方法实际上继承于 java.awt。*/
+
+    private static final String template = "Hello, %s!";
+    private final AtomicLong counter = new AtomicLong();
+
+    @RequestMapping("/greeting")
+    public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        return "HAHA";
+    }
 
     public static void main(String[] args)
     {
